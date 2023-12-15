@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .header {
+            /* background-image: url('bbbbb.png');
+            background-size: cover;
+            padding: 20px; */
+            text-align: center;
+              width: 100%;
+  display: flex;
+  justify-content: center;
+
+        }
+
+.your-image-class {
+    width: 100%; /* Adjust the width as needed */
+    max-height: 100vh; /* Set a maximum height to prevent excessive stretching */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    object-position: center; /* Center the image within the container */
+}
+
+
+        .btn {
+   background-color: #212F3D;
+            border: none;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            
+        }
+
+        .btn:hover {
+            background-color: #D5D8DC;
+            color: #212F3D;
+        }
+
+ .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .book {
+            margin: 20px;
+            text-align: center;
+            flex-basis: 16.66%; /* 6 books per row */
+        }
+
+        .book img {
+            width: 350px; /* Adjust the width as needed */
+            height: 450px; /* Adjust the height as needed */
+            object-fit: cover;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+	.book h1{
+	    color: darkblue;
+		}
+        .book p{
+            color: grey; 
+              }
+        .footer {
+            background-color: #D5D8DC;
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100vw;
+        }
+
+        .black-banner {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            width: 100vw;
+        }
+
+        .thank-you-text {
+            font-size: 30px;
+        }
+
+        .p1 {
+            text-align: center;
+        }
+        .imgtest {
+            height: 150px;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="imgtest" src="bbbbb.png" alt="">
+    <div class="header">
+    
+         
+       
+         <button class="btn" onclick="window.location.href = 'index.html.html';">Home</button>
+        <button class="btn" onclick="window.location.href = 'men.html';">Men's</button>
+        <button class="btn" onclick="window.location.href = 'second.html';">Women's</button>
+ <button class="btn" onclick="window.location.href = 'third.html';">Children's</button>
+        <button class="btn" onclick="showSignInForm()">Sign In</button>
+    </div>
+<div class="p1">
+
+
+ <div class="book-list">
+            <!-- 6 books per row and 5 rows in total -->
+            <!-- 30 copies of the first book details -->
+            <div class="book">
+                <img src="men1.jpg" alt="Book 1">
+                <h1>Printed Shirt</h1>
+		<h2>Rs.1299</h2>
+                <p><strike>Rs.2299</strike></p>
+            </div>
+            <div class="book">
+                <img src="men2.jpg" alt="Book 1">
+               <h1>T-Shirt</h1>
+		<h2>Rs.999</h2>
+                <p><strike>Rs.2199</strike></p>
+
+            </div>
+            <div class="book">
+                <img src="men3.jpg" alt="Book 1">
+                <h1>Leather Jacket</h1>
+		<h2>Rs.3199</h2>
+                <p><strike>Rs.8299</strike></p>
+
+            </div>
+
+<div class="book-list">
+            <!-- 6 books per row and 5 rows in total -->
+            <!-- 30 copies of the first book details -->
+            <div class="book">
+                <img src="men4.jpg" alt="Book 1">
+                 <h1>Formal Wear</h1>
+		<h2>Rs.2299</h2>
+                <p><strike>Rs.4299</strike></p>
+            </div>
+            <div class="book">
+                <img src="men5.jpg" alt="Book 1">
+                <h1>Blazer</h1>
+		<h2>Rs.3299</h2>
+                <p><strike>Rs.6299</strike></p>
+            </div>
+            <div class="book">
+                <img src="men6.jpg" alt="Book 1">
+                 <h1>Denim Jacket</h1>
+		<h2>Rs.2699</h2>
+                <p><strike>Rs.5299</strike></p>
+            </div>
+          
+
+<div class="book-list">
+            <!-- 6 books per row and 5 rows in total -->
+            <!-- 30 copies of the first book details -->
+            <div class="book">
+                <img src="men7.jpg" alt="Book 1">
+                <h1>Round Neck T-Shirt</h1>
+		<h2>Rs.899</h2>
+                <p><strike>Rs.1699</strike></p>
+            </div>
+            <div class="book">
+                <img src="men8.jpg" alt="Book 1">
+                <h1>Denim Jeans</h1>
+		<h2>Rs.1799</h2>
+                <p><strike>Rs.3799</strike></p> 
+</div>
+            <div class="book">
+                <img src="men9.jpg" alt="Book 1">
+                 <h1>Sweater</h1>
+		<h2>Rs.2399</h2>
+                <p><strike>Rs.4299</strike></p>
+            </div>
+
+<div class="footer">
+        <p>© 2023 YourWebsiteName. All rights reserved.</p>
+        <p>Designed for a Sustainable Future</p>
+    </div>
+
+    <!-- <div class="black-banner">
+        <p class="thank-you-text">Thank you for visiting</p>
+    </div>
+
+    <script>
+        function rotateCard(element) {
+            element.classList.toggle("active");
+        }
+    </script> -->
+
+
+   
+</body>
+
+</html>
